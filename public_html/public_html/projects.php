@@ -141,7 +141,37 @@
           <p>Bits of pieces of functionality (like searching for bills, finding representatives via ZIP code) have already been built, so API integrations will be key.  Stay tuned!
         </div>
       </div>
- 
+       <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h4 id="Personal Website Todo" class="featurette-heading">Improvements to this website I have yet to do.</h2>
+          <ul>
+            <li>Centralized datasource for last-updated-time on each page.  Thus, single update propagates to all pages.</li>
+            <li>More privacy protections for contact-me information.  Spam prevention.</li>
+            <li>Implementing MixPanel or GA to track user interaction.</li>
+            <li>Find Me in contact me replaced by an embedded Google Maps and a pin.</li>
+            <li>Embed powerpoint slides and documents in Projects page.</li>
+            <li>Enable website for mobile.</li>
+            <li>Finish writing the hobbies and education pages.</li>
+            <li>Cron jobs that test features/check uptime.</li>
+          </ul>        
+        </div>
+      </div>
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h4 id="Personal Website Done" class="featurette-heading">Cool things to this website I've already done.</h2>
+          <ul>
+            <li>Clean UI via Twitter Bootstrap</li>
+            <li>Ability to download files and view my resume via Dropbox</li>
+            <li>Interactive interests graph via arbor.js</li>
+            <li>Full hosting via 000webhost</li>
+            <li>Directing robots away from my contact page for privacy protection via metatags.</li>
+          </ul>        
+        </div>
+      </div>
 
       <!-- Site footer -->
       <div class="footer">

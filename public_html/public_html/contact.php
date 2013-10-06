@@ -51,7 +51,7 @@
           <p><a class="btn btn-primary" href="tel:1-510-579-9435">Call Me <span class="glyphicon glyphicon-earphone"></span></a></p>
        </div>
         <div class="col-lg-4">
-          <h2>Where Am I</h2>
+          <h2>Find Me</h2>
           <p><a class="btn btn-primary" href="https://maps.google.com/?q=405%20Hilgard%20Ave,%20Los%20Angeles">Find Me <span class="glyphicon glyphicon-chevron-up"></span></a></a></p>
         </div>
       </div>
