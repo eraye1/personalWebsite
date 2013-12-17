@@ -98,10 +98,24 @@
       <p>These are the current ideas I'm really excited about.</p>
       <canvas id="viewport" width="1000" height="600"></canvas>
 
+      <hr class="featurette-divider">
+
       <!-- Site footer -->
-      <div class="footer">
-        <p>By Raymond Minjian Wang</p> <!--I want to store the last modified date in the database and query it out each time so we establish consistency across pages-->
-      </div>
+<?php include '../config.php'; ?>
+<?php
+$con=mysqli_connect($mysql_host,$mysql_user,$mysql_password,$mysql_database);
+$page = "\"index\"";
+$query = "SELECT updateTime FROM pageUpdateTimes where page = $page";
+
+$last_update =  mysqli_query($con,$query) or die(mysqli_error($con));;
+$row = mysqli_fetch_array($last_update);
+
+print "<footer>";
+print " <p class=\"pull-right\"><a href=\"#\">Back to top</a></p>";
+print " <p>By Raymond Minjian Wang &middot; Last Updated: $row[0]</a></p>";
+print "</footer>";
+mysqli_close($con);
+?>
 
     </div> <!-- /container -->
     <!-- Bootstrap core JavaScript

@@ -26,14 +26,14 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-<img src="/assets/pics/ocp.jpg" alt="ocp">
-<div class="container">
- 
+         <img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-frc3/1403330_10151984496765883_91467180_o.jpg" alt="ocp">
+         <div class="container">
+ <!--/assets/pics/ocp.jpg-->
 
-<!--            <div class="carousel-caption">
-              <h1>Welcome to my website!</h1>
-              <p>Feel free to browse around and learn more about me.</p>
-            </div> -->
+           <div class="carousel-caption">
+              <h1>Welcome to the website of Raymond Wang</h1>
+
+            </div> 
           </div>
         </div>
         <div class="item">
@@ -47,11 +47,12 @@
           </div>
         </div>
         <div class="item">
-          <!--<img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Third slide" alt="Third slide">-->
-          <div class="container">
+                       <img src=" http://postgradproblems.com/wp-content/uploads/2013/08/757913ac9efccba3c21197be09ac509c.jpg" alt="ocp">
+           <div class="container">
             <div class="carousel-caption">
-              <h1>Follow me on social media.</h1>
-<br>
+
+
+
 <a href="https://www.facebook.com/raymond.a.wang" target="_TOP" title="Raymond Array Wang" style="padding:25px;"><img src="https://badge.facebook.com/badge/637420882.4577.1439698060.png"/></a>
 <a href="http://www.linkedin.com/in/arrays"><img src="http://www.linkedin.com/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Raymond Wang's profile on LinkedIn"></a>
             </div>
@@ -80,9 +81,9 @@
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img src="/assets/pics/ucla.jpg" alt="ucla" height="140" width="140">
-          <h2>Education</h2>
-          <p>Proud alumnus of UCLA and MSJHS.  They hold a special place in my heart.</p>
-          <p><a class="btn btn-default" href="/education.php">See more about my educational background &raquo;</a></p>
+          <h2>Photo Album</h2>
+          <p>Highlights from my more recent journeys.  Yes, I have friends. </p>
+          <p><a class="btn btn-default" href="/photo.php">See more about my life &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img src="/assets/pics/chess.jpg" alt="chess" height="140" width="140">
@@ -133,14 +134,23 @@
 
       <hr class="featurette-divider">
 
-      <!-- /END THE FEATURETTES -->
+      <!-- Site footer -->
+<?php include 'config.php'; ?>
+<?php 
 
+$con=mysqli_connect($mysql_host,$mysql_user,$mysql_password,$mysql_database);
+$page = "\"index\"";
+$query = "SELECT updateTime FROM pageUpdateTimes where page = $page";
 
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>By Raymond Minjian Wang &middot; Last Updated: 10/4/2013</a></p>
-      </footer>
+$last_update =  mysqli_query($con,$query) or die(mysqli_error($con));;
+$row = mysqli_fetch_array($last_update);
+
+print "<footer>";
+print " <p class=\"pull-right\"><a href=\"#\">Back to top</a></p>";
+print " <p>By Raymond Minjian Wang &middot; Last Updated: $row[0]</a></p>";
+print "</footer>";
+mysqli_close($con);
+?>
 
     </div><!-- /.container -->
 
@@ -148,7 +158,16 @@
      <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
      <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
      <script src="/assets/js/holder.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-45589092-1', 'comeze.com');
+  ga('send', 'pageview');
+
+</script>
    </body>
 </html>
 		

@@ -56,10 +56,6 @@
         </div>
       </div>
 
-      <!-- Site footer -->
-      <div class="footer">
-        <p style="text-align: left;">By Raymond Minjian Wang</p> <!--I want to store the last modified date in the database and query it out each time so we establish consistency across pages-->
-      </div>
 
     </div> <!-- /container -->
 

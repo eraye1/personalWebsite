@@ -67,58 +67,80 @@
 
         
         <div class="col-lg-4">
-          <h2>Embedded Systems and Sensors</h2>
+          <h2>Personal Website Todo and What's done.</h2>
             <div class="progress">
-              <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-              <span class="sr-only">20% Complete (danger)</span>
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+              <span class="sr-only">50% Complete (warning)</span>
             </div>
         </div>
         
-        <h5>Embedded Systems</h4>
+        <h5>Currently working on:</h4>
           <ul>
-            <li>Xilinix Programming</li>
-            <li>FPGA</li>
-            <li>C programming</li>
+            <li>CAPTCHAs for contact me.</li>
+            <li>MySQL separate users and separate update times for each page.</li>
+            <li>Investigating NoSQL datastores for articles.</li>
           </ul>
-        <h5>Sensors</h4>
+        <h5>Recently Finished</h4>
           <ul>
-            <li>Accelerometer</li>
-            <li>Gyroscopes</li>
+            <li>Centralized update times.</li>
+            <li>arbor.js interest graphs.</li>
+            <li>Added articles to Tech interests.</li>
           </ul>
-          <p><a class="btn btn-success" href="#CS152B">More Details!</a></p>
+          <p><a class="btn btn-success" href="#PersonalWebsiteTodo">More Details!</a></p>
          </div>
 
         <div class="col-lg-4">
-          <h2>Politech and leveraging technology in politics</h2>
+          <h2>Pong 2.0.  Virtual Reality Game.</h2>
             <div class="progress">
-              <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
-              <span class="sr-only">10% Complete (danger)</span>
+              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+              <span class="sr-only">100% Complete</span>
             </div>
         </div>
         
-        <h5>Working with APIs</h4>
+        <h5>Software</h4>
           <ul>
-            <li>JSON</li>
-            <li>AJAX calls</li>
+            <li>C code interfacing camera, computer, video projector.</li>
+            <li>Pong game functionality</li>
+            <li>Digital Signal Processing</li>
           </ul>
-        <h5>Mobile Dev</h4>
+        <h5>Hardware</h4>
           <ul>
-            <li>Front-end</li>
-            <li>Threading</li>
-            <li>Battery Management</li>
+            <li>IP core modifications</li>
+            <li>VHDL implementation of hardware elements.</li>
           </ul>
-          <p><a class="btn btn-success" href="#Politech">More Details!</a></p>
+        <h5>Digital Signal Processing</h4>
+          <ul>
+            <li>Background subtraction</li>
+            <li>Band-pass filters</li>
+            <li>Sampling</li>
+          </ul>
+        <h5>Special Thanks to my partners.</h4>
+          <ul>
+            <li>Julian Brown</li>
+            <li>Brandon Wu</li>
+          </ul>
+          <p><a class="btn btn-success" href="#Pong2.0">More Details!</a></p>
          </div>
       </div>
 
-      <hr class="featurette-divider">
+ <hr class="featurette-divider">
 
       <div class="row featurette">
         <div class="col-md-12">
           <h4 id="StickTogetherAndTrackMyTrip" class="featurette-heading">Getting separated from others.  Not America's favorite pastime.</h2>
           <p>Taking trips or traveling with other people is one of the defining features of modern life.  Sadly, there hasn't been a push to really eliminate one of the biggest issues in group traveling: getting lost.  Getting separated from your friends or family is annoying at best and traumatic at worst.</p
           <p>StickTogether and TrackMyTrip seek to mitigate these problems.  StickTogether is a BlueTooth-based scanner that will detect when others leave a 10 meter radius and alert you when others are getting separated from you.  TrackMyTrip allows the user to periodically update their location online so when and if they get lost, others can find their last known location.</p>
-          <p><a class="btn btn-success" href="https://dl.dropboxusercontent.com/u/41434179/Final%20Presentation.pptx">Pitch <span class="glyphicon glyphicon-download"></span></a></p>
+          <h4>Presentation: </h4>
+          <div style="width:700px">
+          <script async class="speakerdeck-embed" data-id="f6b33c8048c101313546029a9781450d" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+          </div>
+          <h4>Thanks: </h4>
+           <ul>
+            <li>Mabel Yeung</li>
+            <li>Jesse Hampton</li>
+            <li>Byron Pang</li>
+            <li>Till Ding</li>
+           </ul>
           <p><a class="btn btn-success" href="https://dl.dropboxusercontent.com/u/41434179/StickTogether%20Business%20Plan%20-%20Draft.doc">Plan <span class="glyphicon glyphicon-download"></span></a></p>        </div>
       </div>
 
@@ -126,29 +148,36 @@
 
       <div class="row featurette">
         <div class="col-md-12">
-          <h4 id="CS152B" class="featurette-heading">Embedded Systems and Sensors</h2>
-	<p>I'm taking CS152B this quarter, which is focused on interfacing sensors, actuators, and hardware with software to make POCs.</p> 	
-        <p>Still learning the tools, so this is a work in progress. </>
-        </div>
-      </div>
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-12">
-          <h4 id="Politech" class="featurette-heading">The only way to have a functional political system is to have an educated population. </h2>
-          <p>There has been a lot of press about how President Obama's tech setup allowed him to more effectively reach out to his supporters.  Given that politics is not terribly popular in tech circles, there is room here for innovation.</p>
-          <p>The idea of Politech is to create a mobile app that can let citizens directly and easily identify their representatives, get updated on key bills and votes, and donate to causes they support.</p>
-          <p>Bits of pieces of functionality (like searching for bills, finding representatives via ZIP code) have already been built, so API integrations will be key.  Stay tuned!
+          <h4 id="Pong2.0" class="featurette-heading"> Pong 2.0. </h2>
+          <p>First and foremost, thanks to my partners, Julian Brown and Brandon Wu.  They did a wonderful job and we had a great group dynamic in this project.</p>
+          <h4>Motivation: </h4>
+          <p>We wanted to recreate the classic pong game, but let people interact with it in real life.  We decided to implement this via an FPGA, camera and video projector.  They would all be centrally controlled by the FPGA and we would write C and VHDL code to interface everything.  C code was then added to build the objects in the pong game and specify their interactions with each other.  </p>
+          <h4>Challenges: </h4>
+          <p>A major challenge was determining the location of the paddles.  To do this, we decided to first simplify the problem.  Since we could pick any paddle, we decided to pick a green paddle and only sample green data.  We decided on green because we could use a simple bitmap to extract the data form the RGB444 stream from the VMOD analog camera.  Then, we did image subtraction to remove background noise.  Now, to detect the paddle, we built a band-pass filter calibrated to our paddle's specific green color.</p>
+          <p>However, live-streaming and being forced to use the data instantly created other problems.  One of the major problems was outliers.  We had to instantiate the location of the paddle from a sampling of bits and their x, y locations after a band-pass filter.  We decided to set determine a constant paddle size (although this was not necessary.  It is very possible to determine the actual size of the paddle) and find the median of the data points that passed our filter.  Since we had to find two paddles, we ran this algorithm twice and partitioned the search space to be the left and right halves of the camera.</p>
+          <p>There were definitely other challenges, like interfacing the camera, storing data, sampling issues, adding AC97 module for sound.  However, I wasn't very involved in those components so I can't speak in detail about those segments.
+          <h4>Software: </h4>
+          <p>It was good to get back into the groove of C-programming.  I made a ball, paddle, and scoreboard object to interact with, developed a graphics library of functions to call to write to the screen, added randomization to the ball direction and speed, and wrote functions to interact with these objects.  There were a lot of other features I wanted to implement (like upgrades, multiple balls, better ball speed randomization, etc.), but unfortunately there wasn't enough time before I left UCLA.</p>
+          <h4>Presentation: </h4>
+          <div style="width:500px">
+          <script async class="speakerdeck-embed" data-id="685ec0e048be01315a146ed13346a9e0" data-ratio="1" src="//speakerdeck.com/assets/embed.js"></script>
+          </div>
+          <h4>Video: </h4>
+          <iframe width="560" height="315" src="//www.youtube.com/embed/G3tJtIhKAC4?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
        <hr class="featurette-divider">
 
       <div class="row featurette">
         <div class="col-md-12">
-          <h4 id="Personal Website Todo" class="featurette-heading">Improvements to this website I have yet to do.</h2>
+          <h4 id="PersonalWebsiteTodo" class="featurette-heading">Improvements to this website I have yet to do.</h2>
           <ul>
-            <li>Centralized datasource for last-updated-time on each page.  Thus, single update propagates to all pages.</li>
-            <li>More privacy protections for contact-me information.  Spam prevention.</li>
+            <li>Implement pagination for articles in Tech page.  </li>
+            <li>Create separate DB users.  No injection attacks possible since no user input, but good security practice.</li>
+            <li>Store articles in database as opposed to inline (yeah, I really goofed here, just aren't enough hours in the day to do everything!).  On the bright side, this gives me a chance to explore NoSQL document stores.</li>
+            <li>Use Apache Lucene or Solr on the articles and maybe other stuff to allow for indexing.  Then, we can make a search bar and let people search the website.  Google?  Let's not get ahead of ourselves.  I'd still sell you my implementation for a billion dollars though.</li>
+            <li>Change datasource for each page so we have a central location to update page update times, but each page has its own time. Note to self: centralize passwords in config page and don't upload pages with passwords to github (duh).</li>
+            <li>More privacy protections for contact-me information.  Spam prevention via CAPTCHAS.</li>
             <li>Implementing MixPanel or GA to track user interaction.</li>
             <li>Find Me in contact me replaced by an embedded Google Maps and a pin.</li>
             <li>Embed powerpoint slides and documents in Projects page.</li>
@@ -162,9 +191,11 @@
 
       <div class="row featurette">
         <div class="col-md-12">
-          <h4 id="Personal Website Done" class="featurette-heading">Cool things to this website I've already done.</h2>
+          <h4 id="PersonalWebsiteDone" class="featurette-heading">Cool things to this website I've already done.</h2>
           <ul>
             <li>Clean UI via Twitter Bootstrap</li>
+            <li>PHP for the photo album.  Basically PHP + MySQL, makes inserting new images trivial (PHPMyAdmin, add a tuple to the database.  It's like magic.</li>
+            <li>Centralized datasource for last-updated-time on each page.  Thus, single update propagates to all pages.</li>
             <li>Ability to download files and view my resume via Dropbox</li>
             <li>Interactive interests graph via arbor.js</li>
             <li>Full hosting via 000webhost</li>
@@ -173,10 +204,24 @@
         </div>
       </div>
 
+      <hr class="featurette-divider">
+
       <!-- Site footer -->
-      <div class="footer">
-        <p>By Raymond Minjian Wang</p> <!--I want to store the last modified date in the database and query it out each time so we establish consistency across pages-->
-      </div>
+<?php include '../config.php'; ?>
+<?php
+$con=mysqli_connect($mysql_host,$mysql_user,$mysql_password,$mysql_database);
+$page = "\"index\"";
+$query = "SELECT updateTime FROM pageUpdateTimes where page = $page";
+
+$last_update =  mysqli_query($con,$query) or die(mysqli_error($con));;
+$row = mysqli_fetch_array($last_update);
+
+print "<footer>";
+print " <p class=\"pull-right\"><a href=\"#\">Back to top</a></p>";
+print " <p>By Raymond Minjian Wang &middot; Last Updated: $row[0]</a></p>";
+print "</footer>";
+mysqli_close($con);
+?>
 
     </div> <!-- /container -->
 
